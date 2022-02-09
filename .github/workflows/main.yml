@@ -34,6 +34,6 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-        name: cppcheck.txt
-        path: cppcheckfile.txt
+          name: cppcheck.txt
+          path: cppcheckfile.txt
 
