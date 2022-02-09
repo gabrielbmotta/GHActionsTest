@@ -1,6 +1,8 @@
 #include "header.hpp"
 
 Test::Test()
-:i(0)
+:i(1)
 {
+    char c[3] = "ab";
+    c[4] = 'a';
 }
